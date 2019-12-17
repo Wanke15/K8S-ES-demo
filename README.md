@@ -20,4 +20,4 @@ python app.py
 ```
 
 5. Browse localhost:5000
-<img src='assets/demo.png'>
+<img src='assets/es-k8s-demo.png'>
