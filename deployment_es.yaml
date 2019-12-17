@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: es-poi
+spec:
+  selector:
+    matchLabels:
+      app: es-poi
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: es-poi
+    spec:
+      containers:
+      - name: es-poi
+        image: elasticsearch:7.5.0-poi-attraction
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 9200
+
