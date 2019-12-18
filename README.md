@@ -12,6 +12,7 @@ kubectl create -f deployment_es.yaml
 3. Expose deployment port
 ```bash
 sh expose_es.sh
+# kubectl expose deployment es-poi --port=9292 --target-port=9200 --type=LoadBalancer
 ```
 
 4. Run Flask app
