@@ -19,11 +19,11 @@ sh expose_es.sh
 python app.py
 ```
 
-5. Browse localhost:5000
+5. Browse **localhost:5000**
 
 <img src='assets/es-k8s-demo.png' height='80%' width='80%'>
 
-6. Browse localhost:5000/recommend and search something like "洛杉矶失恋博物馆", here is the result page:
+6. Browse **localhost:5000/recommend** and search something like "洛杉矶失恋博物馆", here is the result page:
 
 <img src='assets/es-recommend.png' height='80%' width='80%'>
 
