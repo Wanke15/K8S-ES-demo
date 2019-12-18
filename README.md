@@ -20,8 +20,10 @@ python app.py
 ```
 
 5. Browse localhost:5000
+
 <img src='assets/es-k8s-demo.png' height="150", width="150">
 
 6. Browse localhost:5000/recommend and search something like "洛杉矶失恋博物馆", here is the result page:
+
 <img src='assets/es-recommend.png' height="150", width="150">
 
