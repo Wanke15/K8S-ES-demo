@@ -1,5 +1,3 @@
-import json
-from datetime import datetime
 from flask import Flask, jsonify, request, render_template, redirect, url_for
 from elasticsearch import Elasticsearch
 
@@ -23,8 +21,6 @@ def search():
         hits_size = request.form['top_k']
         if not hits_size:
             hits_size = 5
-        # keyword = '张家界'
-        # keyword = request.args.get('keyword')
 
         body = {
             "query": {
